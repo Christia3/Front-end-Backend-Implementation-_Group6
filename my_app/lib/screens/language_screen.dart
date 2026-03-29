@@ -151,11 +151,6 @@ class LanguageScreen extends StatelessWidget {
 
                 const SizedBox(height: 20),
 
-                // Optional: Add French button
-                languageButton("FRANÇAIS", () {
-                  Navigator.pushReplacementNamed(context, '/login');
-                }),
-
                 const Spacer(),
 
                 // Footer text
